@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{% comment %} <!DOCTYPE html>
 <html>
 <head>
     <title>Amazon Clone</title>
@@ -10,5 +10,113 @@
 
     <p>Our online shopping website is coming soon!</p>
 
+</body>
+</html> {% endcomment %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #131921;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
+            gap: 25px;
+        }
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .search {
+            flex: 1;
+            display: flex;
+        }
+        .search input {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+        }
+        .search button {
+            padding: 12px 20px;
+            background-color: #febd69;
+            border: none;
+            cursor: pointer;
+        }
+        .account {
+            font-size: 14px;
+        }
+        .orders {
+            font-size: 14px;
+        }
+        .cart {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .menu {
+            background-color: #232f3e;
+            color: white;
+            padding: 12px 20px;
+        }
+        .menu span {
+            margin-right: 30px;
+        }
+        .welcome {
+            text-align: center;
+            padding: 60px;
+            background-color: #eaeded;
+        }
+        .welcome h1 {
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            amazon
+        </div>
+        <div>
+            Hello<br>
+            <b>Select your address</b>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search Amazon Clone">
+            <button>🔍</button>
+        </div>
+        <div class="account">
+            Hello, sign in<br>
+            <b>Account & Lists</b>
+        </div>
+        <div class="orders">
+            Returns<br>
+            <b>& Orders</b>
+        </div>
+        <div class="cart">
+            🛒 Cart
+        </div>
+    </div>
+    <!-- Menu -->
+    <div class="menu">
+        <span>☰ All</span>
+        <span>Today's Deals</span>
+        <span>Customer Service</span>
+        <span>Gift Cards</span>
+        <span>Sell</span>
+    </div>
+    <!-- Welcome Section -->
+    <div class="welcome">
+        <h1>Welcome to Amazon Clone</h1>
+        <p>
+            Your one-stop online shopping destination
+        </p>
+    </div>
 </body>
 </html>
